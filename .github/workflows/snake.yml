@@ -46,7 +46,7 @@ jobs:
 
       # 连续提交卡（用 STATS_TOKEN 以纳入私有贡献）
       - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+        uses: DenverCoder1/github-readme-streak-stats@v1.8.0
         with:
           options: user=${{ github.repository_owner }}&theme=tokyonight
           path: dist/streak.svg
