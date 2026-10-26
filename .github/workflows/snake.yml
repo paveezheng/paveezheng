@@ -54,7 +54,7 @@ jobs:
 
       # 统计卡（用 STATS_TOKEN 以纳入私有仓库）
       - name: Generate summary cards
-        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.0
+        uses: vn7n24fzkq/github-profile-summary-cards@v0.12.1
         env:
           GITHUB_TOKEN: ${{ secrets.STATS_TOKEN }}
         with:
